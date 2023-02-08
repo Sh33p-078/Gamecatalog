@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@350&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #e5e6e8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+}
+
+.site-name a {
+    margin: 1vh;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.header-links {
+    margin-left: auto;
+    margin-right: 7vh;
+}
+
+.header-links a {
+    margin-left: 5vh;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    text-shadow: 0px 0px 15px#ffffff;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.showcase {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+.showcase div {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    width: 39vh;
+    height: 70vh;
+    background-color: white;
+    margin: 2vh;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.showcase div:hover {
+    border-color: #6eb0e6;
+    box-shadow: 0 0 10px #6eb0e6;
+}
+
+.showcase div img {
+    display: block;
+    margin-top: 46vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vh;
+    height: 15vh;
+}
+
+.showcase div h1 {
+    margin-top: 34vh;
+    font-size: 30px;
+}
+
+.showcase div a {
+    border: 1px solid rgb(30, 30, 30);
+    margin-top: 50px;
+    padding: 1.2vh;
+    padding-left: 3.5vh;
+    padding-right: 3.5vh;
+    border-radius: 30px;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+
+.showcase div a:hover {
+    cursor: pointer;
+}
+
+.csgo {
+    background-image: url(../images/Showcase/CSGO-Showcase.png);
+}
+
+.super-smash-bros {
+    background-image: url(../images/Showcase/sms-Showcase.png);
+}
+
+.rocket-league {
+    background-image: url(../images/Showcase/RocketLeague-Showcase.png);
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 500px 500px;
+    grid-gap: 10vh;
+}
+
+.game-info {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 2.5vh;
+}
+
+.game-info h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 2vh;
+}
+
+.game-info img {
+    max-width: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.game-stats {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 5vh;
+    padding: 2vh;
+    text-align: left;
+}
+
+.game-stats iframe {
+    margin-top: 20px;
+}
+
+.reviews {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.reviews div {
+    width: 110px;
+    height: 200px;
+    background-color: rgb(192, 0, 0);
+    color: white;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.reviews div h3 {
+    padding-top: 20px;
+}
+
+.reviews div a {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+iframe {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+    color: rgb(230, 230, 230);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
